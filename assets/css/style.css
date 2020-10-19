@@ -7,6 +7,14 @@
 
 /*--------------------------------------Text */
 
+h2 {
+	text-align: center;
+	font-size: 30px;
+	margin: auto;
+	padding: 15px;
+	color: #F5F5F5;
+}
+
 h3 {
 	text-align: center;
 	font-size: 20px;
