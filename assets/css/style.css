@@ -1,0 +1,17 @@
+
+
+/*--------------------------------------Heading */
+
+.nav-link {
+	font-size: 25px;
+	font-weight: 600;
+	margin: 2rem;
+}
+
+/*----------------------------------------Section */
+
+section {
+	margin-top: 8rem;
+	background-color: rgba(116, 196, 189, 0.747);
+	min-height: 777px;
+}
