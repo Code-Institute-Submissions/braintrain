@@ -52,6 +52,7 @@ section {
 	margin-top: 8rem;
 	background-color: rgba(116, 196, 189, 0.747);
 	min-height: 728px;
+    min-width: 100%;
 }
 
 #outer-circle {
@@ -138,14 +139,15 @@ section {
 .button {
   border-radius: 40% !important;
   font-size: 32px;
-  margin-left: 72px;
+  margin-left: 75px;
   border-style:solid;
   border-color: black;
   color: white;
   border-width: 2px;
   background-color: green;
   position: absolute;
-  margin-top: 95px;
+  margin-top: 88px;
+  padding: 0px 5px 1px 5px;
 }
 
 #title {
