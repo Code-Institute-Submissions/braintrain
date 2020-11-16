@@ -27,3 +27,19 @@ function four() {
     playNoise("sound4");
     blue.style.backgroundColor = "lightskyblue";
 }
+
+// --------------------- Color helpers ---------------------
+
+function clearColor() {
+    green.style.backgroundColor = "darkgreen";
+    red.style.backgroundColor = "darkred";
+    yellow.style.backgroundColor = "goldenrod";
+    blue.style.backgroundColor = "darkblue";
+}
+
+function flashColor() {
+    green.style.backgroundColor = "lightgreen";
+    red.style.backgroundColor = "tomato";
+    yellow.style.backgroundColor = "yellow";
+    blue.style.backgroundColor = "lightskyblue";
+}
