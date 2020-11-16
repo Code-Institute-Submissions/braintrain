@@ -63,3 +63,8 @@ blue.addEventListener('click', (event) => {
     buttonClickedEvent(four, 4);
 })
 
+//Button Event Listener
+startButton.addEventListener('click', (event) => {
+    clearInterval(intervalId);
+    play();
+});
