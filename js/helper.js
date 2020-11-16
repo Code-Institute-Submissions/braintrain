@@ -43,3 +43,23 @@ function flashColor() {
     yellow.style.backgroundColor = "yellow";
     blue.style.backgroundColor = "lightskyblue";
 }
+
+// --------------------- Colour Event Listeners ---------------------
+
+
+green.addEventListener('click', (event) => {
+    buttonClickedEvent(one, 1);
+})
+
+red.addEventListener('click', (event) => {
+    buttonClickedEvent(two, 2);
+})
+
+yellow.addEventListener('click', (event) => {
+    buttonClickedEvent(three, 3);
+})
+
+blue.addEventListener('click', (event) => {
+    buttonClickedEvent(four, 4);
+})
+
