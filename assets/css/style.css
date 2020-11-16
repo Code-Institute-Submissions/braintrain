@@ -163,6 +163,21 @@ section {
   margin-top: 192px;
 }
 
+#turn {
+  position: absolute;
+  background: #330000;
+  color: red;
+  font-family: courier;
+  font-size: 18px;
+  height: 30px;
+  width: 120px;
+  margin-left: 55px;
+  margin-top: 160px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+}
+
 /*----------------------------------------Footer */
 
 footer {
