@@ -62,3 +62,23 @@ function isMaxTurnReached() {
     // Logic for checking if the user reached the maximum number of turns for level 'x', where x --> infinity
     return playerOrder.length == getLengthForLevel();
 }
+
+function check() {
+    // If the last colour a player clicked is not equal to the actual colour then they lose
+    if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1]) 
+        correctSelection = false;
+
+    if (correctSelection && isMaxTurnReached()) {
+        winGame(); //Parameters for winning the game for each level
+    }
+
+    // If player is incorrect, perform these actions
+    if (correctSelection == false) { 
+        loseGame();
+    }
+
+    //If player is correct, but has not yet won, perform these actions
+    if (turn == playerOrder.length && correctSelection && !win) {
+        nextTurn();
+    }
+}
