@@ -93,3 +93,12 @@ function loseGame() {
     }, 800);
     noise = false; //If player is incorrect, the sound will not play
 }
+
+function nextTurn() {
+    turn++;
+    playerOrder = [];
+    compTurn = true;
+    flash = 0;
+    turnCounter.innerHTML = turn;
+    intervalId = setInterval(gameTurn, 800);
+}
