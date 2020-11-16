@@ -69,7 +69,7 @@ function check() {
         correctSelection = false;
 
     if (correctSelection && isMaxTurnReached()) {
-        winGame(); //Parameters for winning the game for each level
+        winGame(); // Parameters for winning the game for each level
     }
 
     // If player is incorrect, perform these actions
@@ -77,7 +77,7 @@ function check() {
         loseGame();
     }
 
-    //If player is correct, but has not yet won, perform these actions
+    // If player is correct, but has not yet won, perform these actions
     if (turn == playerOrder.length && correctSelection && !win) {
         nextTurn();
     }
@@ -91,7 +91,7 @@ function loseGame() {
         clearColor();
         play();
     }, 800);
-    noise = false; //If player is incorrect, the sound will not play
+    noise = false; // If player is incorrect, the sound will not play
 }
 
 function nextTurn() {

@@ -1,4 +1,5 @@
-//Variables
+// --------------------- Variables ---------------------
+
 var level = 1; // The level of the game the user is on
 let order = []; // Keeps track of randomly generated computer light order
 var playerOrder = []; // Order the player presses the lights in
