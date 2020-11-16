@@ -53,7 +53,7 @@ p {
 section {
 	margin-top: 108px;
 	background-color: rgba(116, 196, 189, 0.747);
-	min-height: 768px;
+	min-height: 763px;
     min-width: 100%;
 }
 
@@ -70,7 +70,7 @@ section {
 
 .rules-p {
 	padding: 5px;
-    color: rgba(116, 196, 189, 0.747);
+    color: #343a40;
 }
 
 #outer-circle {
