@@ -40,3 +40,16 @@ function gameTurn() {
         }, 200)
     }
 }
+
+function buttonClickedEvent(btnFunction, orderNumber) {
+    if (playerTurn) { // Player can click if
+        playerOrder.push(orderNumber); // Clicking green will push 1 onto playerOrder array
+        check(); // Check to see if player was correct
+        btnFunction(); // Then run appropriate function
+        if (!win) { // If player has not won yet, the colour will be cleared after set amount of time
+            setTimeout(() => {
+                clearColor();
+            }, 300);
+        }
+    }
+}
