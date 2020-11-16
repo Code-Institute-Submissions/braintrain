@@ -148,6 +148,14 @@ section {
   margin-top: 95px;
 }
 
+#title {
+  font-family: 'Original Surfer', cursive;
+  position: absolute;
+  font-size: 30px;
+  margin-left: 38px;
+  margin-top: 40px;
+}
+
 /*----------------------------------------Footer */
 
 footer {
