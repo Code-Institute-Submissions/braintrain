@@ -53,3 +53,12 @@ function buttonClickedEvent(btnFunction, orderNumber) {
         }
     }
 }
+
+function getLengthForLevel(){
+    return level*turnLevelMultiplier;
+}
+
+function isMaxTurnReached() {
+    // Logic for checking if the user reached the maximum number of turns for level 'x', where x --> infinity
+    return playerOrder.length == getLengthForLevel();
+}
