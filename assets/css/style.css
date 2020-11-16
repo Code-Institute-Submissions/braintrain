@@ -7,11 +7,19 @@
 
 /*--------------------------------------Text */
 
+h1 {
+	text-align: center;
+	font-size: 60px;
+	margin: auto;
+	padding: 10px;
+	color: #F5F5F5;
+}
+
 h2 {
 	text-align: center;
 	font-size: 30px;
 	margin: auto;
-	padding: 15px;
+	padding: 10px;
 	color: #F5F5F5;
 }
 
@@ -38,21 +46,31 @@ p {
     color: white;
 }
 
-/*--------------------------------------Heading */
 
-.nav-link {
-	font-size: 25px;
-	font-weight: 600;
-	margin: 2rem;
-}
 
 /*----------------------------------------Section */
 
 section {
-	margin-top: 8rem;
+	margin-top: 108px;
 	background-color: rgba(116, 196, 189, 0.747);
-	min-height: 728px;
+	min-height: 768px;
     min-width: 100%;
+}
+
+.subheading {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.rules {
+	border-radius: 25px;
+	background-color: #F5F5F5;
+	padding: 5px;
+}
+
+.rules-p {
+	padding: 5px;
+    color: rgba(116, 196, 189, 0.747);
 }
 
 #outer-circle {
