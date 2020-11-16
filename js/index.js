@@ -82,3 +82,14 @@ function check() {
         nextTurn();
     }
 }
+
+function loseGame() {
+    flashColor();
+    turnCounter.innerHTML = "GAME OVER!";
+    setTimeout(() => {
+        turnCounter.innerHTML = turn;
+        clearColor();
+        play();
+    }, 800);
+    noise = false; //If player is incorrect, the sound will not play
+}
