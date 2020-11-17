@@ -110,5 +110,6 @@ function winGame() {
     win = true;
     level++;
     document.getElementById('level-number').innerHTML = `Level ${level}`;
-    alert(`Congratulations, you have completed level ${level-1}. Press Start to begin level ${level}.`);
+    swal("Congratulations!", `You have completed level ${level-1}. Press Start to begin level ${level}.`, "success");
 }
+
