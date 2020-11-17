@@ -198,6 +198,47 @@ section {
   line-height: 30px;
 }
 
+@media screen and (max-width:600px) {
+	
+    #outer-circle {
+        width: 251px;
+        height: 251px;
+    }
+
+    #inner-circle {
+        width: 0px;
+        height: 0px;
+        top: 125%;
+        left: 54%;
+        background: none;
+        border-style: none;
+    }
+
+    #title {
+        display: none;
+    }
+    
+    #green,
+	#yellow,
+    #red,
+    #blue {
+		width: 125px;
+		height: 125px;
+	}
+
+    #green,
+    #yellow {
+        left: 105%;
+    }
+
+    #green,
+    #red {
+        top:105%;
+    }
+
+    
+}
+
 
 /*----------------------------------------Footer */
 
