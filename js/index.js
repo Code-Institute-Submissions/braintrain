@@ -4,7 +4,6 @@
 Randomises the button sequence and sets the interval for the gameturn
 */
 function play() {
-    order =[];
     win = false;
     playerOrder = [];
     flash = 0;

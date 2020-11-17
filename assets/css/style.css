@@ -66,6 +66,7 @@ section {
 	border-radius: 25px;
 	background-color: #F5F5F5;
 	padding: 5px;
+    margin: 0px 5px 0px 5px;
 }
 
 .rules-p {
@@ -198,6 +199,10 @@ section {
   line-height: 30px;
 }
 
+
+
+/*----------------------------------------Media Queries */
+
 @media screen and (max-width:600px) {
 	
     #outer-circle {
@@ -237,6 +242,20 @@ section {
     }
 
     
+}
+
+@media screen and (max-width:400px) {
+    h1 {
+        font-size: 52px;
+    }
+
+    section {
+        margin-top: 98px;
+    }
+
+    p {
+        font-size: 18px;
+    }
 }
 
 
