@@ -4,6 +4,7 @@
 Randomises the button sequence and sets the interval for the gameturn
 */
 function play() {
+    order =[];
     win = false;
     playerOrder = [];
     flash = 0;
@@ -16,22 +17,22 @@ function play() {
 
     compTurn = true; // Starts with computer sequence
 
-    intervalId = setInterval(gameTurn, 800); //Runs gameturn function after set amount of time
+    intervalId = setInterval(gameTurn, 800); // Runs gameturn function after set amount of time
 }
 
 function gameTurn() {
-    playerTurn = false; // Player cannot interact while on=false
+    playerTurn = false; // Player cannot interact while playerTurn=false
 
     if (flash == turn) { // If number of flashes=turncounter number then compturn is over
         clearInterval(intervalId);
         compTurn = false;
         clearColor();
-        playerTurn = true; //Now player can interact with the game
+        playerTurn = true; // Now player can interact with the game
     }
 
     if (compTurn) {
         clearColor();
-        setTimeout(() => { //Performs this once after set amount of time
+        setTimeout(() => { // Performs this once after set amount of time
             if (order[flash] == 1) one();
             if (order[flash] == 2) two();
             if (order[flash] == 3) three();
@@ -42,7 +43,7 @@ function gameTurn() {
 }
 
 function buttonClickedEvent(btnFunction, orderNumber) {
-    if (playerTurn) { // Player can click if
+    if (playerTurn) { // Player can click if playerTurn is true
         playerOrder.push(orderNumber); // Clicking green will push 1 onto playerOrder array
         check(); // Check to see if player was correct
         btnFunction(); // Then run appropriate function
