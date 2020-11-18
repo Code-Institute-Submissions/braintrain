@@ -18,7 +18,7 @@ The user can play through endless levels, challenging themselves and improving t
 
         1. As a Young Visitor, I want a site that will be visually appealing.
         2. As a Young Visitor, I want a site that will be appealing to the ears.
-        3. As a Young Visitor, I want to be able to easily understand the content of the site.
+        3. As a Young Visitor, I want a memory game that is easy to understand.
 
     -   #### Adult Visitor Goals
 
@@ -32,10 +32,8 @@ The user can play through endless levels, challenging themselves and improving t
 
 -   ### Design
     -   #### Colour Scheme
-        -   Black, White, and Grey were used for a very clean, minimalistic look that would clash with the multitude of colours from the album covers.
-    -   #### Imagery
-        -   The Beatles Logo itself acts as the Home button and fits in very well with the colour scheme.
-        -   All four of the headshots on the home page were chosen for their consistency. The Beatles are all of similar age and it gives the impression that they are available to be booked.
+        -   Mostly dark grey and white to ensure there is no clashing with the game colours.
+        -   A light aquamarine background to improve visual appeal for very young/old users.
 
 *   ### Wireframes
 
@@ -43,15 +41,9 @@ The user can play through endless levels, challenging themselves and improving t
 
 ## Features
 
--   Responsive on all device sizes
+-   Responsive on all device sizes.
 
--   Social media links
-
--   Wikipedia links on the Discography page
-    
--   Youtube videos on the Media page
-
--   Form submission to see The Beatles live.
+-   Memory game with endless levels.
 
 ## Technologies Used
 
@@ -67,8 +59,6 @@ The user can play through endless levels, challenging themselves and improving t
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import Original Surfer font and the emboss effect
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used for the social media icons as seen on the footer of each page.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
@@ -87,51 +77,45 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### Young Visitor Goals
 
-    1. As a First Time Visitor, I want to find out information about The Beatles and the individual members.
+    1. As a Young Visitor, I want a site that will be visually appealing.
 
-        1. Upon entering the site, users are immediately greeted with a clean home page that tells them some history about the Band's origins and their influence on the world of music.
-        2. Beneath the band information, users can read a little bit about each band member's role within the group and the songs that were attributed to them.
+        1. Upon entering the site, users are immediately greeted with a colourful page and a colourful game.
+        2. When the computer or the user selects a colour, the element will flash with a new, brighter colour.
 
-    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+    2. As a Young Visitor, I want a site that will be appealing to the ears.
 
-        1. The site has been designed to be minimalistic and devoid of clutter so that the user can navigate easily through it.
-        2. The navigation bar is fixed to ensure that users will never lose sight of how to move around within the website.
-        3. The dropdown Navigational bar on smaller devices enables a tidier Nav bar for the user.
+        1. When the computer selects a colour, a sound will play that is allocated to that specific colour.
+        2. When the user selects the right colour, the sound will play. It acts as a victory noise.
 
-    3. As a First Time Visitor, I want to learn about their albums and listen to their music.
-        1. The discography page shows the user all of the Studio albums made by The Beatles and the album artwork used for them.
-        2. By clicking on the album artwork or title the user can learn endless information about said album though the wikipedia page that opens in a new tab.
-        3. The Media page provides five music videos displaying the wide range of music The Beatles were famous for.
+    3. As a Young Visitor, I want a memory game that is easy to understand.
+        1. The rules are fixed above the game itself, ensuring any user is constantly able to read them..
+        2. The game starts at a nice easy level, with a sequence length of 3.
 
 -   #### Adult Visitor Goals
 
-    1. As a Returning Visitor/Fan, I want access to their discography and music in one clean place.
+    1. As an Adult Visitor, I want access to a quick-start memory game to challenge myself.
 
-        1. The discography page provides all 12 Studio Album artworks and links to their wikipedia pages in one place.
-        2. The Media page provides youtube videos of The Beatles that can be watched/listened to. More videos of their catalogue could be uploaded.
+        1. The site is a singular page that the user can return to and can be playing within a matter of seconds.
 
-    2. As a Returning Visitor/Fan, I want access to all of The Beatles Social Media sites from one location.
+    2. As an Adult Visitor, I want to be able improve my memory capability and compete against my friends.
 
-        1. The website provides fans with a 'favourite' page that has links to every Beatles social media site.
+        1. The endless levels mean there is a challenge for even the most intelligent users.
+        2. Experienced users can train their memory, and try to beat their friends' best scores.
 
-    3. As a Returning Visitor/Fan, I want to book to see my favourite band live!
-        1. The user can easily book to see the band live by completing the forms on the Book Us Page and selecting a date.
-        2. Currently, if all forms have been completed correctly, the page will refresh once the form has been submitted. This is due to the fact that no javascript has been used because of the guidelines of this project. No Method has entered as part of the form.
+-   #### Elderly Visitor/Alzheimer Patient Goals
 
--   #### Elderly Visitor Goals
+    1. As an Elderly Visitor/Alzheimer Patient, I want a way to keep my mind active.
 
-    1. As a Returning Visitor/Fan, I want access to their discography and music in one clean place.
+        1. The memory game is a fantastic way to keep the brain active, and the memory fresh.
+        2. As an Elderly Visitor/Alzheimer Patient I can keep track of my progress via the levels I can get to.
 
-        1. The discography page provides all 12 Studio Album artworks and links to their wikipedia pages in one place.
-        2. The Media page provides youtube videos of The Beatles that can be watched/listened to. More videos of their catalogue could be uploaded.
+    2. As an Elderly Visitor/Alzheimer Patient, I want a game that will be easily understandable.
 
-    2. As a Returning Visitor/Fan, I want access to all of The Beatles Social Media sites from one location.
+        1. The rules are constantly on display for users to refer to.
+        2. The basic colours used within the game help to keep it simple.
+        3. The noises used in tandem with the colours help with remembering the sequences.
+        4. The low amount of elements available (four) to interact also help to keep it simple.
 
-        1. The website provides fans with a 'favourite' page that has links to every Beatles social media site.
-
-    3. As a Returning Visitor/Fan, I want to book to see my favourite band live!
-        1. The user can easily book to see the band live by completing the forms on the Book Us Page and selecting a date.
-        2. Currently, if all forms have been completed correctly, the page will refresh once the form has been submitted. This is due to the fact that no javascript has been used because of the guidelines of this project. No Method has entered as part of the form.
 ### Further Testing
 
 1. Navigational bar
