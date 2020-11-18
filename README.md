@@ -118,32 +118,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
-1. Navigational bar
-    * Click The Beatles Logo in the top left to make sure it takes you to the home page.
-    * Try this on every single device size.
-    * Click on every option (Home, Discography, Media, Book Us) in the navbar menu on every screen size to make sure they work.
-    * Do this step from each individual page.
-
-2. Footer
-    * On the home page click every social media link to ensure it opens a new window and takes you the the relevant site for The Beatles.
-    * Try this on every single device size.
-    * Do this step from each individual page.
-
-3. Discography Page
-    * Click on every album cover to see if it takes you to the right Wikipedia page.
-    * Click on every album title to see if it takes you to the right Wikipedia page.
-    * Repeat these steps on every device size.
-
-4. Media page
-    * Click play on each video to ensure the video and audio are working as intended.
-    * Repeat this for each device size.
-
-5. Book Us Page
-    * Try to submit the empty form and verify that an error message about the required fields appears.
-    * Try to submit the form with only a first name to verify that an error message about the required fields appears.
-    * Do this for each input to ensure that validation is working correctly.
-    * Repeat until submission works. This will be shown by the refreshing of the page due to the fact no javascript was used in the form.
-    * Do this for all device sizes.
+1. Playing the game
+    * Click the start button and click the elements to ensure the user cannot interact while compTurn=true.
+    * Repeat the computer sequence to see if nextTurn is working correctly.
+    * Lose the game to see if the game resets as intended.
+    * Keep clicking the start button to see if the game restarts correctly despite the interference.
+    * Complete the level to see if the next level starts correctly.
+    * Repeat the above steps for every level.
+    * Complete these steps on every device size.
 
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
@@ -152,8 +134,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   The Media page can take several seconds to load due to the number of iframes on the page.
--   The videos on the media page do not flow as smoothly as intended with the reduction in screen size.
+-   If the user clciks on the same colour in rapid succession, the element might not play sound due to the length of the sound used.
+-   If the user spam clicks the colours very quickly before the game starts, the sequence might break, and the page may need to be refreshed.
 
 ## Deployment
 
@@ -210,19 +192,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 
-### Content
-
--   All content was written by the developer.
-
-### Media
-
--   All Images were taken from Google images.
-
--   All videos were taken from youtube.com.
-
 ### Acknowledgements
 
--   My Mentor Aaron for his continuous helpful feedback.
+-   My Mentor Reuben for his continuous, helpful input.
 
--   Tutor support at Code Institute for their support.
+-   Tutor support at Code Institute and online tutorials for their assistance.
 
