@@ -196,5 +196,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   My Mentor Reuben for his continuous, helpful input.
 
--   Tutor support at Code Institute and online tutorials for their assistance.
+-   Free code camp tutorials on Youtube.
+
+-   Tutor support at Code Institute for their assistance.
 
