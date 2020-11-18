@@ -5,7 +5,7 @@
 
 The idea of this project was to create a memory game that would be accessible to people of all ages.
 
-The user can look through the studio albums, listen to their music, as well as book to see The Beatles live.
+The user can play through endless levels, challenging themselves and improving their memory capability.
 
 
 <img src="https://github.com/sykez12/braintrain/blob/9cb351504916edc0b39fcbff21ccd536c0955710/Documentation/amiresponsivebraintrain.png" alt="Amiresponsive">
@@ -16,21 +16,19 @@ The user can look through the studio albums, listen to their music, as well as b
 
     -   #### Young Visitor Goals 
 
-        1. As a First Time Visitor, I want to find out information about The Beatles and the individual members.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to learn about their albums and listen to their music.
+        1. As a Young Visitor, I want a site that will be visually appealing.
+        2. As a Young Visitor, I want a site that will be appealing to the ears.
+        3. As a Young Visitor, I want to be able to easily understand the content of the site.
 
     -   #### Adult Visitor Goals
 
-        1. As a Returning Visitor/Fan, I want access to their discography and music in one clean place.
-        2. As a Returning Visitor/Fan, I want access to all of The Beatles Social Media sites from one location.
-        3. As a Returning Visitor/Fan, I want to book to see my favourite band live!
+        1. As an Adult Visitor, I want access to a quick-start memory game to challenge myself.
+        2. As an Adult Visitor, I want to be able improve my memory capability and compete against my friends.
 
-    -   #### Elderly Visitor Goals
+    -   #### Elderly Visitor/Alzheimer Patient Goals
 
-        1. As a Returning Visitor/Fan, I want access to their discography and music in one clean place.
-        2. As a Returning Visitor/Fan, I want access to all of The Beatles Social Media sites from one location.
-        3. As a Returning Visitor/Fan, I want to book to see my favourite band live!
+        1. As an Elderly Visitor/Alzheimer Patient, I want a way to keep my mind active.
+        2. As an Elderly Visitor/Alzheimer Patient, I want a game that will be easily understandable.
 
 -   ### Design
     -   #### Colour Scheme
@@ -61,17 +59,16 @@ The user can look through the studio albums, listen to their music, as well as b
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import Roboto and Exo.
+    - Google fonts were used to import Original Surfer font and the emboss effect
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used for the social media icons as seen on the footer of each page.
-1. [jQuery:](https://jquery.com/)
-    - jQuery was used NavBarDropdown seen on smaller devices.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
@@ -88,7 +85,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing User Stories from User Experience (UX) Section
 
--   #### First Time Visitor Goals
+-   #### Young Visitor Goals
 
     1. As a First Time Visitor, I want to find out information about The Beatles and the individual members.
 
@@ -106,7 +103,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. By clicking on the album artwork or title the user can learn endless information about said album though the wikipedia page that opens in a new tab.
         3. The Media page provides five music videos displaying the wide range of music The Beatles were famous for.
 
--   #### Returning Visitor/Fan Goals
+-   #### Adult Visitor Goals
+
+    1. As a Returning Visitor/Fan, I want access to their discography and music in one clean place.
+
+        1. The discography page provides all 12 Studio Album artworks and links to their wikipedia pages in one place.
+        2. The Media page provides youtube videos of The Beatles that can be watched/listened to. More videos of their catalogue could be uploaded.
+
+    2. As a Returning Visitor/Fan, I want access to all of The Beatles Social Media sites from one location.
+
+        1. The website provides fans with a 'favourite' page that has links to every Beatles social media site.
+
+    3. As a Returning Visitor/Fan, I want to book to see my favourite band live!
+        1. The user can easily book to see the band live by completing the forms on the Book Us Page and selecting a date.
+        2. Currently, if all forms have been completed correctly, the page will refresh once the form has been submitted. This is due to the fact that no javascript has been used because of the guidelines of this project. No Method has entered as part of the form.
+
+-   #### Elderly Visitor Goals
 
     1. As a Returning Visitor/Fan, I want access to their discography and music in one clean place.
 
