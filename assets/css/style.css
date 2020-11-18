@@ -53,7 +53,7 @@ p {
 section {
 	margin-top: 108px;
 	background-color: rgba(116, 196, 189, 0.747);
-	min-height: 763px;
+	min-height: 820px;
     width: 100%;
 }
 
@@ -203,6 +203,17 @@ section {
 
 /*----------------------------------------Media Queries */
 
+@media screen and (max-width:1024px) {
+    section {
+        min-height: 763px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    section {
+        min-height: 818px;
+    }
+}
 @media screen and (max-width:600px) {
 	
     #outer-circle {
