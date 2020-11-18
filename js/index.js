@@ -11,11 +11,10 @@ function play() {
     turn = 1;
     turnCounter.innerHTML = 1;
     correctSelection = true;
-    
-    createAdditionalLevelTurns();
-
     compTurn = true; // Starts with computer sequence
-
+    if (order.length == 0) {
+        randomlyPopulateTurnOrder(getLengthForLevel());
+    }
     intervalId = setInterval(gameTurn, 800); // Runs gameturn function after set amount of time
 }
 
@@ -86,6 +85,7 @@ function check() {
 function loseGame() {
     flashColor();
     turnCounter.innerHTML = "GAME OVER!";
+    randomlyPopulateTurnOrder(order.length); // Repopulate but with the same length
     setTimeout(() => {
         turnCounter.innerHTML = turn;
         clearColor();
@@ -111,5 +111,6 @@ function winGame() {
     level++;
     document.getElementById('level-number').innerHTML = `Level ${level}`;
     swal("Congratulations!", `You have completed level ${level-1}. Press Start to begin level ${level}.`, "success");
+    randomlyPopulateTurnOrder(getLengthForLevel());
 }
 

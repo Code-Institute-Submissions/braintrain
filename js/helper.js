@@ -72,12 +72,12 @@ startButton.addEventListener('click', (event) => {
 // --------------------- Game logic helpers ---------------------
 
 /*
-Increase the number of orders by the number of turns per level = turnLevelMultiplier
-Generate turnLevelMultiplier random numbers
+Generate random numbers
 Append them to order
  */
-function createAdditionalLevelTurns() {
-    for (var i = 0; i < turnLevelMultiplier; i++) {
+function randomlyPopulateTurnOrder(len){
+    order = []; // Reset order
+    for (var i = 0; i < len; i++) {
         order.push(Math.floor(Math.random() * 4) + 1); // Randomizes a number between 1 and 4
     }
 }
